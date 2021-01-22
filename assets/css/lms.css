@@ -1,0 +1,43 @@
+*{ margin: 0; padding: 0; }
+
+.card-padding{ padding: 1rem 0rem; }
+
+.btn, button, input[type="file"], input[type="text"], input[type="password"], input[type="date"] {
+    border-radius: 0rem;
+    padding: 0.2rem 0.25rem 0.25rem;
+}
+
+input[type="text"], input[type="password"], input[type="date"]{
+    height: calc(1em + 0.750rem + 2px);
+}
+
+#librarian_gender, #librarian_role, #member_gender, #member_role, #pay_mode, #plan_status, #search_by, #details_by{
+    padding: 1px;
+    height: calc(1.2em + 0.75rem + 1px);
+    border-radius: 0;
+}
+
+.table th, .table td{ padding: 0.5rem; }
+.card-header, .navbar-color{ background-color: #1e3446 !important; }
+.well{ background-color: rgba(50, 50, 50, 0.05); }
+.btn, label{ color: #160131; }
+.btn { width: 72px; }
+.btn:hover{ background-color: #1e3446; }
+a{ color: #160131; }
+
+#librarian_profile_image, #member_profile_image, #subscriber_profile_image{
+    position: absolute;
+    top: 8%;
+    right: 2%;
+}
+
+#librarian_profile_signature, #member_profile_signature, #subscriber_profile_signature{
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+}
+
+#librarian_profile th, #librarian_profile td, #member_profile th, #member_profile td, #subscriber_profile th, #subscriber_profile td{ border: none; }
+.table tbody th, .table tbody td, .table tbody th, .table tbody td{ padding: 0.5rem; }
+#sidebar{ background-color: #1e3446; }
+#member_register_button, #reset_member, #update_member_button { margin-top: 2rem !important; }
